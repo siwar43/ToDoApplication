@@ -3,21 +3,21 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
     todolist : [
         {
-            id: Math.random(),
-            title: "todo item 1",
-            description: "description todo item 1",
+            id: 1,
+            title: "Buy groceries",
+            description: "Milk, Eggs, Bread, and Cheese",
             isDone: false
-            },
-            {
-            id: Math.random(),
-            title: "todo item 2",
-            description: "description todo item 2",
+        },
+        {
+            id: 2,
+            title: "Finish project report",
+            description: "Complete the final section and review formatting",
             isDone: false
-            },
-            {
-            id: Math.random(),
-            title: "todo item 3",
-            description: "description todo item 3",
+        },
+        {
+            id: 3,
+            title: "Call the dentist",
+            description: "Schedule a cleaning appointment",
             isDone: true
         },
     ],
